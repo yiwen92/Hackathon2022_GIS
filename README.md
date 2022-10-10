@@ -7,8 +7,8 @@ This is a template for TiDB's change proposal process, documented [here](./READM
 # RFC: <!-- Title --> GIS - GIS support For TiDB
 
 - Author(s): [@dveeden](https://github.com/dveeden), [@madwyn](https://github.com/madwyn), [@mjonss](https://github.com/mjonss), [@yiwen92](https://github.com/yiwen92) (in alphabetical order)
-- Last updated: 2022-10-06 <!-- Date -->
-- Discussion at: online meeting
+- Last updated: 2022-10-10 <!-- Date -->
+- Discussion at: online meetings
 - Project at: https://github.com/orgs/Hackathon-2022-GIS/repositories
 - RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
 
@@ -47,6 +47,13 @@ A precise statement of the proposed change:
 
 Support GIS data type, support basic function, show a live demo to validate it.
 
+User scenario: shared bike
+1. input 1 location point and other shared bike points and shown in a map
+2. find a shared bike nearby(within xx m)/ or find nearest one
+3. input destination to get a navigation map
+4. other usages of spatial(forbidden area recognition)
+5. IOT extension(low battery warning, ring a bell, abnormal detection)
+
 Main functions:
 1. Define spatial data type and SQL usage in TiDB
 2. Basic functions like calculate distance
@@ -66,7 +73,7 @@ Future proposal：
 
 #### 对应的可视化渲染结果（效果模拟图）
 
-!['./GIS-demo.png'](GIS-demo.png)
+!['./netherlands_map.png'](netherlands_map.png)
 
 ## Rationale
 
@@ -113,21 +120,6 @@ A detailed description for each step in the implementation:
 Daniel, Mattias - Database Developer
 Elwyn - Frontend Developer
 Yves - Product Manager
-
-
-1st meeting note: Setup team, Sync-up idea
-
-Task:
-Preparation & investigation
-RFC draft
-Repo setup
-
-2nd meeting note：framework discussion, responsibility division
-
-Task:
-Frontend work & Backend work
-RFC commit & Org setup
-Presenting initial
 
 
 ## Testing Plan
