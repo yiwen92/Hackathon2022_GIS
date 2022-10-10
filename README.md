@@ -67,10 +67,10 @@ Future proposal：
 
 #### SQL syntax
 
-#### json type
+#### Json-binary,GeoJSON
 
 
-#### 对应的可视化渲染结果（效果模拟图）
+#### Visual simulator
 
 !['./netherlands_map.png'](netherlands_map.png)
 
