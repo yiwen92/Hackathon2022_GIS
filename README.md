@@ -18,7 +18,7 @@ GIS is a project to let TiDB support spatial data with a live demo.
 - Author(s): [@dveeden](https://github.com/dveeden), [@madwyn](https://github.com/madwyn), [@mjonss](https://github.com/mjonss), [@yiwen92](https://github.com/yiwen92) (in alphabetical order)
 - Last updated: 2022-10-10 <!-- Date -->
 - Discussion at: online meetings
-- Project at: https://github.com/orgs/Hackathon-2022-GIS/repositories
+- Project detail: https://github.com/orgs/Hackathon-2022-GIS/repositories
 - RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
 
 
@@ -117,9 +117,10 @@ A detailed description for each step in the implementation:
 - How long it takes to accomplish it?
 -->
 Daniel, Mattias - Database Developer
-Elwyn - Frontend Developer
-Yves - Product Manager
 
+Elwyn - Frontend Developer
+
+Yves - Product Manager
 
 ## Testing Plan
 
