@@ -1,4 +1,4 @@
-# Hackathon2022_GIS
+# RFC: Hackathon2022_GIS
 Support GIS for TiDB
 <!--
 This is a template for TiDB's change proposal process, documented [here](./README.md).
@@ -9,9 +9,10 @@ This is a template for TiDB's change proposal process, documented [here](./READM
 - Author(s): [@dveeden](https://github.com/dveeden), [@madwyn](https://github.com/madwyn), [@mjonss](https://github.com/mjonss), [@yiwen92](https://github.com/yiwen92) (in alphabetical order)
 - Last updated: 2022-10-06 <!-- Date -->
 - Discussion at: online meeting
-- Project at: https://github.com/yiwen92/Hackathon2022_GIS
+- Project at: https://github.com/orgs/Hackathon-2022-GIS/repositories
+- RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
 
-## 项目介绍
+## 项目介绍 Program Intro
 
 <!--
 A short summary of the proposal:
@@ -19,11 +20,10 @@ A short summary of the proposal:
 - What needs to be done in this proposal?
 - What is the impact of this proposal?
 -->
+GIS is a project to let TiDB support spatial data with a live demo.
+该项目旨在使 TiDB 支持 GIS ，即地理空间位置数据。
 
-XXX is a project to let TiDB support GIS data with a live demo.
-该项目旨在使 TiDB 支持 GIS 数据。
-
-## 背景&动机
+## 背景&动机 Background&Motivation
 
 <!--
 An introduction of the necessary background and the problem being solved by the proposed change:
@@ -31,9 +31,9 @@ An introduction of the necessary background and the problem being solved by the 
 - The expected outcome of this proposal.
 -->
 
-GIS data is widely used in many scenarios, including supply chain, on-line service, navigation service etc, we are going to support GIS data inside TiDB to help service more scenarios.
+GIS data is widely used in many scenarios, including supply chain, on-line service, navigation service etc, we are going to support GIS data inside TiDB to help expand more scenarios.
 
-## 项目设计
+## 项目设计 Program Desgin
 
 <!--
 A precise statement of the proposed change:
@@ -48,12 +48,18 @@ A precise statement of the proposed change:
 Support GIS data type, support basic function, show a live demo to validate it.
 
 Main functions:
+1. Define spatial data type and SQL usage in TiDB
+2. Basic functions like calculate distance
+3. Integration with third party tool to do navigation
 
 Future proposal：
+1. More functions, fully compatible with main usages in MySQL
+2. Spatial index to accelarate search performance
+3. TiDB serve as one-stop data solution with multi-model support(Document, spatial, time-series etc) to archieve more comprehensive usages
 
 ### Example
 
-#### SQL 语句
+#### SQL syntax
 
 #### json type
 
@@ -104,8 +110,9 @@ A detailed description for each step in the implementation:
 - When to do it?
 - How long it takes to accomplish it?
 -->
-
-
+Daniel, Mattias - Database Developer
+Elwyn - Frontend Developer
+Yves - Product Manager
 
 
 1st meeting note: Setup team, Sync-up idea
