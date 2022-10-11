@@ -3,9 +3,8 @@
 <!--
 This is a template for TiDB's change proposal process, documented [here](./README.md).
 -->
-- Team: Leonardo
-
-Leonardo da Vinci is a versatile talent in history, in this WAY program, we would like to support spatial data in TiDB, make TiDB to support multi-model and become uniform data platform in future.
+Team: Leonardo
+- Leonardo da Vinci is a versatile talent in history, in this WAY program, we would like to support spatial data in TiDB, make TiDB to support multi-model and become uniform data platform in future.
 历史上的莱昂纳多.达芬奇是一个全面发展的天才，在 WAY 这个项目里，我们希望开发 TiDB 使其支持空间信息数据，扩展 TiDB 在多模数据库上的能力和应用场景，期待未来 TiDB 成为一个更加通用、完整且统一的大数据平台。
 
 ## 项目介绍 Program Intro
@@ -36,7 +35,7 @@ An introduction of the necessary background and the problem being solved by the 
 - The expected outcome of this proposal.
 -->
 
-GIS data is widely used in many scenarios, including supply chain, on-line service, navigation service etc, we are going to support GIS data inside TiDB to help expand more scenarios.
+GIS data is widely used in many scenarios, including supply chain, on-line service, navigation service etc, we are going to support GIS data inside database to help TiDB expand more scenarios.
 
 ## 项目设计 Program Desgin
 
