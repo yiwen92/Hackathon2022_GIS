@@ -1,9 +1,10 @@
 # RFC: <!-- Title --> WAY - TiDB GIS support(WIP)
-Support spatial data in TiDB
+
 <!--
 This is a template for TiDB's change proposal process, documented [here](./README.md).
 -->
 - Team: Leonardo
+
 Leonardo da Vinci is a versatile talent in history, in this WAY program, we would like to support spatial data in TiDB, make TiDB to support multi-model and become uniform data platform in future.
 历史上的莱昂纳多.达芬奇是一个全面发展的天才，在 WAY 这个项目里，我们希望开发 TiDB 使其支持空间信息数据，扩展 TiDB 在多模数据库上的能力和应用场景，期待未来 TiDB 成为一个更加通用、完整且统一的大数据平台。
 
