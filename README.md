@@ -1,4 +1,4 @@
-# RFC: <!-- Title --> WAY - TiDB GIS support(WIP)
+# RFC: <!-- Title --> WAY - TiDB GIS support
 
 <!--
 This is a template for TiDB's change proposal process, documented [here](./README.md).
@@ -19,11 +19,10 @@ GIS is a project to let TiDB support spatial data with a live demo.
 该项目旨在使 TiDB 支持 GIS ，即地理空间位置数据。
 
 - Author(s): [@dveeden](https://github.com/dveeden), [@madwyn](https://github.com/madwyn), [@mjonss](https://github.com/mjonss), [@yiwen92](https://github.com/yiwen92) (in alphabetical order)
-- Last updated: 2022-10-10 <!-- Date -->
+- Last updated: 2022-10-15 <!-- Date -->
 - Discussion at: online meetings
 - Project detail: https://github.com/orgs/Hackathon-2022-GIS/repositories
 - RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
-
 
 
 
@@ -59,9 +58,10 @@ User scenario: shared bike
 5. IOT extension(low battery warning, ring a bell, abnormal detection)
 
 Main functions:
-1. Define spatial data type and SQL usage in TiDB
-2. Basic functions like calculate distance
-3. Integration with third party tool to do navigation
+1. Support spatial data type and SQL usage in TiDB
+2. Basic functions like calculate distance in TiDB
+3. Define interface to support frontend demo, whole arch
+4. Integration with third party tool to do navigation or other extension（optional）
 
 Future proposal：
 1. More functions, fully compatible with main usages in MySQL
