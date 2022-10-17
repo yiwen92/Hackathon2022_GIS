@@ -202,11 +202,11 @@ A detailed description for each step in the implementation:
 - When to do it?
 - How long it takes to accomplish it?
 -->
-Daniel, Mattias - Database Developer @ Nertherland
+Daniel, Mattias - Database Developer @Amsterdam,NL
 
-Elwyn - Frontend Developer
+Elwyn - Frontend Developer @London,UK
 
-Yves - Product Manager
+Yves - Product Manager @Shanghai,CN
 
 #### Architecture（WIP）
 
