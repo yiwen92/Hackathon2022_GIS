@@ -8,7 +8,7 @@ Team: Leonardo.TiDB (https://www.nationalgeographic.co.uk/history-and-civilisati
 - 历史上的莱昂纳多.达芬奇是一个全面发展的通才，他的涉猎领域包括绘画、建筑、医学、机械甚至地理地图学。在 WAY 这个项目里，我们希望开发 TiDB 使其支持空间信息数据，扩展 TiDB 在多模数据库上的能力和应用场景，期待未来 TiDB 成为一个更加通用、完整且统一的大数据平台，以此向这位天才致敬。
 
 
-## 项目介绍 Program Intro
+## Program Intro 项目介绍
 
 <!--
 A short summary of the proposal:
@@ -27,7 +27,7 @@ WAY is a project to let TiDB support spatial data with a live demo. WAY is the s
 - RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
 
 
-## 背景&动机 Background&Motivation
+## Background&Motivation 背景&动机
 
 <!--
 An introduction of the necessary background and the problem being solved by the proposed change:
@@ -39,7 +39,7 @@ GIS data is widely used in many scenarios, including supply chain, on-line to of
 
 地理位置信息数据被广泛使用到许多场景中，包括供应链，O2O，导航等等。在该项目中，我们计划在 TiDB 数据库层支持位置信息数据，以拓展 TiDB 的应用场景，挖掘更多商业机会。
 
-## 项目设计 Program Desgin
+## Program Desgin 项目设计
 
 <!--
 A precise statement of the proposed change:
@@ -78,7 +78,7 @@ Future proposal：
 3. More innovative scenarios adoption
 4. TiDB serve as one-stop data solution with multi-model support(Document, spatial, time-series etc) to archieve more comprehensive usages
 
-## Example scenarios
+## Example scenarios 场景案例
 
 ### A.shared bike
 
@@ -155,7 +155,7 @@ WIP
 #### Visual simulator
 !['./netherlands_map.png'](netherlands_map.png)
 
-## Rationale
+## Rationale 参考
 
 <!--
 A discussion of alternate approaches and the trade-offs, advantages, and disadvantages of the specified approach:
@@ -193,7 +193,7 @@ A discussion of the change with regard to the compatibility issues:
 -->
 
 
-## Implementation
+## Implementation 实现
 
 <!--
 A detailed description for each step in the implementation:
@@ -216,7 +216,7 @@ Vue？          ->  https/json ~ sql    -> GeoJson, sp_functions
 
 !['./arch.png'](arch.png)
 
-## Testing Plan
+## Testing Plan 测试计划
 
 <!--
 A brief description on how the implementation will be tested. Both integration test and unit test should consider the following things:
@@ -232,7 +232,7 @@ A discussion of issues relating to this proposal for which the author does not k
 -->
 None
 
-## Thanks to(in alphabetical order)
+## Thanks to(in alphabetical order) 致谢
 Shen Yongyuan,
 [@sillydong](https://github.com/sillydong) 
 
