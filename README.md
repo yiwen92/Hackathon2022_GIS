@@ -214,6 +214,8 @@ Frontend(elwyn) -> Middleware(mattias) -> Database(daniel)
 
 Vue？          ->  https/json ~ sql    -> GeoJson, sp_functions
 
+!['./arch.png'](arch.png)
+
 ## Testing Plan
 
 <!--
