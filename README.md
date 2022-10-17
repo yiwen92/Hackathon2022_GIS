@@ -27,7 +27,6 @@ WAY is a project to let TiDB support spatial data with a live demo. WAY is the s
 - RFC at:  https://github.com/yiwen92/Hackathon2022_GIS
 
 
-
 ## 背景&动机 Background&Motivation
 
 <!--
@@ -151,6 +150,7 @@ may used in huge disaster, like let user report their locations, we can prompt t
     - cover map with heatmap
 
 #### SQL syntax
+TBA
 
 #### Visual simulator
 !['./netherlands_map.png'](netherlands_map.png)
@@ -165,7 +165,12 @@ A discussion of alternate approaches and the trade-offs, advantages, and disadva
 - What is the disadvantage of this design?
 - What is the impact of not doing this?
 -->
-
+  1. https://db-engines.com/en/blog_post/88 - background about spatial db
+  2. https://github.com/facebook/rocksdb/blob/main/docs/_posts/2015-07-17-spatial-indexing-in-rocksdb.markdown - Spatial indexing in RocksDB 
+  3. https://geojson.org/ - geojson
+  4. https://dev.mysql.com/blog-archive/mysql-workbench-6-2-spatial-data/  - mysql
+  5. https://account.capitalbikeshare.com/map - source data
+  6. https://developers.google.com/maps/documentation/directions/get-directions#maps_http_directions_brooklyn_queens_transit-go - third party api
 
 ## Compatibility and Migration Plan
 None
