@@ -80,7 +80,7 @@ Future proposal：
 
 ## Example scenarios
 
-### shared bike
+### A.shared bike
 
 #### value:
 
@@ -114,7 +114,7 @@ provide a complete solution to the basic needs of shared bikes
     - show current point
     - alert if user is in restricted area
 
-### rescue
+### B.rescue
 
 #### value:
 
@@ -150,7 +150,7 @@ may used in huge disaster, like let user report their locations, we can prompt t
     - cover map with heatmap
 
 #### SQL syntax
-TBA
+WIP
 
 #### Visual simulator
 !['./netherlands_map.png'](netherlands_map.png)
