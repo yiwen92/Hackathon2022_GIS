@@ -53,9 +53,9 @@ Support GIS data type, support basic function, show a live demo to validate it.
 User scenario: shared bike
 1. input 1 location point and other shared bike points and shown in a map
 2. find a shared bike nearby(within xx m)/ or find nearest one
-3. input destination to get a navigation map
+3. *input destination to get a navigation map
 4. other usages of spatial(forbidden area recognition)
-5. IOT extension(low battery warning, ring a bell, abnormal detection)
+5. *IOT extension(low battery warning, ring a bell, abnormal detection)
 
 Main functions:
 1. Support spatial data type and SQL usage in TiDB
@@ -70,13 +70,10 @@ Future proposal：
 
 ### Example
 
+
 #### SQL syntax
 
-#### Json-binary,GeoJSON
-
-
 #### Visual simulator
-
 !['./netherlands_map.png'](netherlands_map.png)
 
 ## Rationale
@@ -92,7 +89,7 @@ A discussion of alternate approaches and the trade-offs, advantages, and disadva
 
 
 ## Compatibility and Migration Plan
-
+None
 <!--
 A discussion of the change with regard to the compatibility issues:
 - Does this proposal make TiDB not compatible with the old versions?
@@ -126,6 +123,12 @@ Daniel, Mattias - Database Developer
 Elwyn - Frontend Developer
 
 Yves - Product Manager
+
+#### Architecture（WIP）
+
+Frontend(elwyn) -> Middleware(mattias) -> Database(daniel)
+
+Vue?               https/json<->sql       GeoJson, geo-functions
 
 ## Testing Plan
 
