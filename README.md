@@ -64,7 +64,7 @@ User scenario: shared bike
 
 Basic functions:
 1. Support spatial data type and SQL usage in TiDB
-2. Basic functions like calculate distance in TiDB
+2. Basic functions like calculate distance and sp_within in TiDB
 3. Define interface to support frontend demo
 
 Advanced features:
@@ -75,7 +75,7 @@ Advanced features:
 Future proposal：
 1. More functions, fully compatible with usages in MySQL
 2. Support spatial index to accelarate search performance
-3. More innovative scenarios adoption
+3. More innovative scenarios adoption: rescue, supply chain tracking, search&recommendation, business operation etc
 4. TiDB serve as one-stop data solution with multi-model support(Document, spatial, time-series etc) to archieve more comprehensive usages
 
 ## Example scenarios 场景案例
@@ -84,7 +84,7 @@ Future proposal：
 
 #### value:
 
-provide a complete solution to the basic needs of shared bikes
+provide a complete solution to the basic needs of shared e-bikes
 
 #### case:
 
